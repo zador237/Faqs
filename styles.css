@@ -71,3 +71,12 @@ hr{
 /* .star{
 
 } */
+
+@media(max-width: 650px){
+
+    body{
+        background:url('./assets/images/background-pattern-mobile.svg'), 
+    #f9f0ff;
+  background-repeat: no-repeat;
+    }
+}
