@@ -1,0 +1,73 @@
+body{
+    background:url('./assets/images/background-pattern-desktop.svg'), 
+    #f9f0ff;
+  background-repeat: no-repeat;
+  font-family: "Work Sans", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    height: 95vh;
+}
+.content-box{
+    width: 550px;
+    background-color: white;
+    padding:40px 40px 0;
+    border-radius: 15px;
+}
+.main-title{
+    font-size: 55px;
+    margin: 0;
+}
+.faq-title{
+    display:flex;
+    gap:20px;
+
+}
+.section-title{
+    height: fit-content;
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.section-title:hover{
+    color: #AD28EB;
+    cursor: pointer;
+    transition:  0.3s ease-out;
+}
+.section-body{
+    margin-top:25px;
+    color:hsl(292, 16%, 49%);
+    font-weight: 200;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    transition:  1s ease-out;
+}
+.plus-img{
+    height: px;
+    float:right;
+    cursor: pointer;
+
+}
+.faqs{
+    margin:25px 0 ;
+}
+hr{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: #f9f0ff;
+    
+}
+.margin{
+    margin:0 0 20px ;
+}
+
+/* .star{
+
+} */
